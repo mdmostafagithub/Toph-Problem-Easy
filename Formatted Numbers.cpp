@@ -1,0 +1,38 @@
+/*#include<stdio.h>
+int  main(){
+     int k1,k2,k3;
+    int n;
+
+   scanf("%d",&n);
+   if(n<20000000){
+   k3=n%1000;
+    n= n/1000;
+     k2=n%1000;
+      n=n/1000;
+     k1=n%1000000;
+   printf("%d,%d,%d",k1,k2,k3);
+   }
+   return 0;
+}*/
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int k1,k2,k3,k4,m,n;
+
+    if(m<200000000)
+    {
+        cin>>m;
+        n=m/1000;
+        //k1=m%100;
+        for(int i=0;i<n;i++)
+        {
+            //cout<<n<<",";
+        }
+        cout<<n<<",";
+    }
+    //cout<<k1;
+
+}
